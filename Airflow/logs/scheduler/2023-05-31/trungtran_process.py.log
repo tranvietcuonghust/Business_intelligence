@@ -1,0 +1,70 @@
+[2023-05-31T04:54:06.585+0000] {processor.py:156} INFO - Started process (PID=42) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T04:54:06.605+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T04:54:06.626+0000] {logging_mixin.py:117} INFO - [2023-05-31T04:54:06.625+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T04:54:07.510+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T04:54:08.953+0000] {logging_mixin.py:117} INFO - [2023-05-31T04:54:08.952+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T04:54:09.519+0000] {logging_mixin.py:117} INFO - [2023-05-31T04:54:09.519+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T04:54:10.031+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 3.519 seconds
+[2023-05-31T04:54:40.837+0000] {processor.py:156} INFO - Started process (PID=67) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T04:54:40.840+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T04:54:40.842+0000] {logging_mixin.py:117} INFO - [2023-05-31T04:54:40.842+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T04:54:41.009+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T04:54:41.325+0000] {logging_mixin.py:117} INFO - [2023-05-31T04:54:41.324+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T04:54:41.498+0000] {logging_mixin.py:117} INFO - [2023-05-31T04:54:41.497+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T04:54:41.591+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.767 seconds
+[2023-05-31T06:23:46.060+0000] {processor.py:156} INFO - Started process (PID=28) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:23:46.063+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T06:23:46.066+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:23:46.065+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:23:46.233+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:23:46.715+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:23:46.714+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T06:23:46.888+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:23:46.887+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T06:23:47.009+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.962 seconds
+[2023-05-31T06:24:17.202+0000] {processor.py:156} INFO - Started process (PID=54) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:24:17.205+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T06:24:17.206+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:24:17.206+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:24:17.381+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:24:17.546+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:24:17.545+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T06:24:17.725+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:24:17.724+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T06:24:17.798+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.607 seconds
+[2023-05-31T06:24:47.892+0000] {processor.py:156} INFO - Started process (PID=80) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:24:47.895+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T06:24:47.896+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:24:47.896+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:24:48.020+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:24:48.194+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:24:48.194+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T06:24:48.326+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:24:48.325+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T06:24:48.405+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.525 seconds
+[2023-05-31T06:25:19.063+0000] {processor.py:156} INFO - Started process (PID=107) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:25:19.070+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T06:25:19.073+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:25:19.072+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:25:19.241+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:25:19.419+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:25:19.419+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T06:25:19.568+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:25:19.567+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T06:25:19.646+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.598 seconds
+[2023-05-31T06:25:49.779+0000] {processor.py:156} INFO - Started process (PID=142) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:25:49.782+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T06:25:49.785+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:25:49.784+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:25:49.952+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:25:50.174+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:25:50.174+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T06:25:50.338+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:25:50.337+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T06:25:50.426+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.661 seconds
+[2023-05-31T06:26:21.191+0000] {processor.py:156} INFO - Started process (PID=168) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:26:21.194+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T06:26:21.196+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:26:21.195+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:26:21.303+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:26:21.456+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:26:21.455+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T06:26:21.548+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:26:21.548+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T06:26:21.612+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.429 seconds
+[2023-05-31T06:26:51.777+0000] {processor.py:156} INFO - Started process (PID=194) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:26:51.781+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T06:26:51.784+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:26:51.783+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:26:51.933+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:26:52.086+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:26:52.086+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T06:26:52.215+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:26:52.214+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T06:26:52.306+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.548 seconds
+[2023-05-31T06:27:22.480+0000] {processor.py:156} INFO - Started process (PID=220) to work on /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:27:22.483+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/trungtran_process.py for tasks to queue
+[2023-05-31T06:27:22.487+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:27:22.486+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:27:22.696+0000] {processor.py:768} INFO - DAG(s) dict_keys(['trungtran_process_data_1']) retrieved from /opt/airflow/dags/trungtran_process.py
+[2023-05-31T06:27:22.895+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:27:22.894+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-31T06:27:23.067+0000] {logging_mixin.py:117} INFO - [2023-05-31T06:27:23.067+0000] {dag.py:3328} INFO - Setting next_dagrun for trungtran_process_data_1 to 2023-05-30T17:00:00+00:00, run_after=2023-05-31T17:00:00+00:00
+[2023-05-31T06:27:23.168+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/trungtran_process.py took 0.705 seconds

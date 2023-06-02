@@ -1,0 +1,28 @@
+[2023-05-30T01:32:09.743+0000] {processor.py:156} INFO - Started process (PID=29) to work on /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:32:09.747+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/word_count_scheduler.py for tasks to queue
+[2023-05-30T01:32:09.750+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:32:09.749+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:32:09.965+0000] {processor.py:768} INFO - DAG(s) dict_keys(['word_count_1']) retrieved from /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:32:10.868+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:32:10.867+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-30T01:32:11.103+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:32:11.102+0000] {dag.py:3328} INFO - Setting next_dagrun for word_count_1 to 2023-05-29T17:00:00+00:00, run_after=2023-05-30T17:00:00+00:00
+[2023-05-30T01:32:11.240+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/word_count_scheduler.py took 1.514 seconds
+[2023-05-30T01:32:41.380+0000] {processor.py:156} INFO - Started process (PID=55) to work on /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:32:41.395+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/word_count_scheduler.py for tasks to queue
+[2023-05-30T01:32:41.398+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:32:41.398+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:32:41.569+0000] {processor.py:768} INFO - DAG(s) dict_keys(['word_count_1']) retrieved from /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:32:41.800+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:32:41.799+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-30T01:32:42.094+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:32:42.093+0000] {dag.py:3328} INFO - Setting next_dagrun for word_count_1 to 2023-05-29T17:00:00+00:00, run_after=2023-05-30T17:00:00+00:00
+[2023-05-30T01:32:42.186+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/word_count_scheduler.py took 0.819 seconds
+[2023-05-30T01:33:12.744+0000] {processor.py:156} INFO - Started process (PID=83) to work on /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:33:12.755+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/word_count_scheduler.py for tasks to queue
+[2023-05-30T01:33:12.757+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:33:12.757+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:33:12.916+0000] {processor.py:768} INFO - DAG(s) dict_keys(['word_count_1']) retrieved from /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T01:33:13.097+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:33:13.096+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-30T01:33:13.249+0000] {logging_mixin.py:117} INFO - [2023-05-30T01:33:13.249+0000] {dag.py:3328} INFO - Setting next_dagrun for word_count_1 to 2023-05-29T17:00:00+00:00, run_after=2023-05-30T17:00:00+00:00
+[2023-05-30T01:33:13.341+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/word_count_scheduler.py took 0.612 seconds
+[2023-05-30T15:45:51.300+0000] {processor.py:156} INFO - Started process (PID=31) to work on /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T15:45:51.307+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/word_count_scheduler.py for tasks to queue
+[2023-05-30T15:45:51.312+0000] {logging_mixin.py:117} INFO - [2023-05-30T15:45:51.311+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T15:45:51.489+0000] {processor.py:768} INFO - DAG(s) dict_keys(['word_count_1']) retrieved from /opt/airflow/dags/word_count_scheduler.py
+[2023-05-30T15:45:52.037+0000] {logging_mixin.py:117} INFO - [2023-05-30T15:45:52.036+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-05-30T15:45:52.321+0000] {logging_mixin.py:117} INFO - [2023-05-30T15:45:52.321+0000] {dag.py:3328} INFO - Setting next_dagrun for word_count_1 to 2023-05-29T17:00:00+00:00, run_after=2023-05-30T17:00:00+00:00
+[2023-05-30T15:45:52.469+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/word_count_scheduler.py took 1.182 seconds

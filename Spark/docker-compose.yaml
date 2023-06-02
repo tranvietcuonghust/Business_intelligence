@@ -1,0 +1,66 @@
+version: "3.3"
+services:
+  spark-master:
+    image: tranvietcuonghust/tichhopdulieu_spark
+    hostname: spark-master
+    ports:
+      - "9092:8080"
+      - "7078:7077"
+      - "4041:4040"
+      - "2223:22"
+    volumes:
+      - ./app:/opt/spark/app
+      - ./resources:/opt/spark/resources
+    environment:
+      - SPARK_LOCAL_IP=spark-master
+      - SPARK_WORKLOAD=master
+      - SPARK_PUBLIC_DNS=localhost
+      - CORE_CONF_fs_defaultFS=hdfs://namenodetvc:9010
+    networks:
+      - bussiness_inteligence
+  spark-worker-a:
+    image: tranvietcuonghust/tichhopdulieu_spark
+    ports:
+      - "9094:8080"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_DRIVER_MEMORY=1G
+      - SPARK_EXECUTOR_MEMORY=1G
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-a
+      - SPARK_PUBLIC_DNS=localhost
+      - CORE_CONF_fs_defaultFS=hdfs://namenodetvc:9010
+    volumes:
+      - ./app:/opt/spark/app
+      - ./resources:/opt/spark/resources
+    networks:
+      - bussiness_inteligence
+  spark-worker-b:
+    image: tranvietcuonghust/tichhopdulieu_spark
+    ports:
+      - "9093:8080"
+      - "7002:7000"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_DRIVER_MEMORY=1G
+      - SPARK_EXECUTOR_MEMORY=1G
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-b
+      - CORE_CONF_fs_defaultFS=hdfs://namenodetvc:9010
+    volumes:
+        - ./app:/opt/spark/app
+        - ./resources:/opt/spark/resources
+    networks:
+      - bussiness_inteligence
+networks:
+  bussiness_inteligence:
+    external: true
+

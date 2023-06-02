@@ -1,0 +1,54 @@
+version: "3"
+
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenodetvc
+    restart: always
+    ports:
+      - 9871:9870
+      - 9010:9000
+    volumes:
+      - ./hadoop_namenode:/hadoop/dfs/name
+    environment:
+      - CLUSTER_NAME=test
+    env_file:
+      - ./hadoop.env
+    networks:
+      - bussiness_inteligence
+
+  datanode1:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode1_tvc
+    restart: always
+    volumes:
+      - ./hadoop_datanode1:/hadoop/dfs/data
+    environment:
+      SERVICE_PRECONDITION: "namenodetvc:9870"
+    env_file:
+      - ./hadoop.env
+    networks:
+      - bussiness_inteligence
+
+  datanode2:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode2_tvc
+    restart: always
+    volumes:
+      - ./hadoop_datanode2:/hadoop/dfs/data
+    environment:
+      SERVICE_PRECONDITION: "namenodetvc:9870"
+    env_file:
+      - ./hadoop.env
+    networks:
+      - bussiness_inteligence
+
+volumes:
+  hadoop_namenode:
+  hadoop_datanode1:
+  hadoop_datanode2:
+networks:
+  bussiness_inteligence:
+    external: true
+
+
